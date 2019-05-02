@@ -1,0 +1,277 @@
+/* main content */
+.title {
+    display: flex;
+    padding-left: 3px;
+}
+
+.theader {
+    border-top: 0px solid white;
+    display: flex;
+    background-color: #f5f5f5;
+    color: #2b2b2b;
+    font-weight: 550;
+}
+
+.last-row {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.comp-name {
+    width: 300px;
+}
+.cont-number {
+    width: 100px;
+}
+
+.id {
+    width: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.data-table {
+    padding-bottom: 5px;
+}
+
+.tbody {
+    border-top: 7px solid white;
+    height: 245px;
+}
+
+
+/* -------------------------------------------------------*/
+#sells,#mySells {
+    display: inline-block;
+    border: 1px solid #E2E2E2;
+    height: 36px;
+    font-family: arial;
+    font-size: 15px;
+    width: 111px;
+    border-radius: 3px;
+    color: #C3C3C3;
+    line-height: 35px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+#mySells {
+    width: 140px;
+}
+.twenty {
+    width: 18px;
+}
+#sells {
+    border-color: #0F72B8;
+    color: #0F72B8;
+}
+#table_2 {
+    border-top: 8px solid white;
+    height: 200px;
+    font-family: Tahoma Regular;
+    overflow-x: hidden;
+    font-size: 14px;
+}
+.lin {
+    display: inline-flex;
+}
+.lin div {
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden; 
+}
+.square {
+    width: 30px;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+}
+.upl {
+    width: 298px;
+    border: 1px solid #E2E2E2;
+    height: 30px;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 10px;
+    color: #979797;
+}
+.numb {
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    text-align: center;
+    color: #979797;
+}
+.numb div {
+    display: inline-block;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+}
+.tiv {
+    width: 30px;
+    border-left: 1px solid #E2E2E2;
+    border-right: 1px solid #E2E2E2;
+}
+.minus,.plus {
+    width: 25px;
+    cursor: pointer;
+    user-select: none;
+}
+.upl_price {
+    border: 1px solid #E2E2E2;
+    width: 80px;
+    border-radius: 4px;
+    color: #979797;
+    font-size: 14px;
+    text-align: center;
+}
+.emp {
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    width: 225px;
+    color: #979797;
+}
+.hrr {
+    padding: 10px 0;
+}
+.in_hrr {
+    border-top: 1px solid #F7F7F7;
+    width: 100%;
+}
+#a {
+    width: 20px;
+}
+#b {
+    width: 22px;
+}
+#c {
+    width: 268px;
+}
+#d {
+     width: 18px;
+}
+#e {
+    width: 58px;
+}
+.aa {
+    width: 10px;
+}
+#ennd {
+    font-size: 13px;
+}
+.kkk {
+    height: 30px;
+    display: inline-flex;
+}
+#ots {
+    display: inline-flex;
+}
+#stoim {
+    line-height: 30px;
+}
+#svoya {
+    margin-left: 5px;
+    line-height: 30px;
+    color: #858585;
+}
+#txt_area {
+    margin-left: 15px;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    line-height: 30px;
+    width: 160px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+#chk {
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    margin-left: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+#gal {
+    background-image: url('../icons/gal.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .5;
+}
+#oo {
+    padding-left:385px;
+}
+.promo-code{
+    border-top: 50px solid white;
+    margin-bottom: 30px;
+}
+#two_btn {
+    display: inline-flex;
+    margin-top: 125px;
+    width: 100%;
+}
+#download , #oform {
+    display: inline-flex;
+    width: 140px;
+    border-radius: 4px;
+    position: relative;
+    height: 35px;
+}
+#ddd,#ooo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-flex;
+    top: 50%;
+}
+#download img {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    opacity: .5;
+}
+#in_oform {
+    width: 120px;
+    text-align: center;
+}
+#oform {
+    margin-left: 30px;
+    border: 1px solid #2FA963;
+    color: #2FA963;
+    cursor: pointer;
+}
+#download {
+    border: 1px dashed #E1E1E1;
+    cursor: pointer;
+}
+.hrr2 {
+    border-top: 1px solid #E6E6E6;
+}
+#prii {
+    text-align: center;
+}
+#dannix {
+    color: #BE4C4B;
+    text-align: center;
+    padding-top: 160px;
+    border-bottom: 120px solid white;
+}
+.tp {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+#bdtop {
+    width: 10px;
+    height: 60px;
+}
+#nottop {
+    height: 23px;
+    border-bottom: 10px solid white; 
+}
